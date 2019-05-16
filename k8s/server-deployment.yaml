@@ -14,10 +14,6 @@ spec:
       containers:
       - name: server
         image: icoretchi/multi-server
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
           - containerPort: 5000
         env:
